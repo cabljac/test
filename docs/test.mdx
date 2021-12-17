@@ -29,28 +29,7 @@ expect, e.g. it will create a new page on the stack of pages, show a Back button
 in the `AppBar`, etc. To return results, use `Navigator.pop` as you normally
 would:
 
-```dart
-ButtonBar(children: [
-  TextButton(
-    onPressed: () => Navigator.pop(context),
-    child: const Text('Cancel'),
-  ),
-  ElevatedButton(
-    onPressed: () {
-      if (_formKey.currentState!.validate()) {
-        final person = Person(
-          id: 'p${widget.family.people.length + 1}',
-          name: _nameController.text,
-          age: int.parse(_ageController.text),
-        );
 
-        Navigator.pop(context, person);
-      }
-    },
-    child: const Text('Create'),
-  ),
-]),
-```
 
 You can feel free to use `GoRouter` and `Navigator` together like this. However,
 one thing that using `Navigator.push` in this way will not do is update the
