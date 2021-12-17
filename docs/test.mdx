@@ -100,33 +100,3 @@ ButtonBar(children: [
 
 With this implementation, you can set up a sub-route to provide a page to add a
 new person:
-
-```dart
-GoRoute(
-  name: 'home',
-  path: '/',
-  builder: ...,
-  routes: [
-    GoRoute(
-      name: 'family',
-      path: 'family/:fid',
-      builder: ...,
-      routes: [
-        GoRoute(
-          name: 'person',
-          path: 'person/:pid',
-          builder: ...,
-        ),
-        GoRoute(
-          name: 'new-person',
-          path: 'new-person',
-          builder: (context, state) {
-            final family = Families.family(state.params['fid']!);
-            return NewPersonScreen(family: family);
-          },
-        ),
-      ],
-    ),
-  ],
-),
-```
