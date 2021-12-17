@@ -1,2 +1,22 @@
+```dart
+ButtonBar(children: [
+  TextButton(
+    onPressed: () => Navigator.pop(context),
+    child: const Text('Cancel'),
+  ),
+  ElevatedButton(
+    onPressed: () {
+      if (_formKey.currentState!.validate()) {
+        final person = Person(
+          id: 'p${widget.family.people.length + 1}',
+          name: _nameController.text,
+          age: int.parse(_ageController.text),
+        );
 
-<Image src='./image1.png' height={10} alt="image" href="https://google.com"/>
+        Navigator.pop(context, person);
+      }
+    },
+    child: const Text('Create'),
+  ),
+]),
+```
