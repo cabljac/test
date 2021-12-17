@@ -130,22 +130,3 @@ GoRoute(
   ],
 ),
 ```
-
-And now your `_addPerson` method would look like this:
-
-```dart
-void _addPerson(BuildContext context) {
-  context.goNamed('new-person', params: {'fid': widget.family.id});
-}
-```
-
-And finally, when you're making changes to the data in your app that appears in
-more than one place, e.g. updating the list of `Person` objects in a `Family` on
-one page while also showing a list of those `Person` objects on another page,
-you'll want to ensure that the widgets in your app can be rebuilt when the state
-they depend on changes. For this, I recommend a state management solution like
-[provider](https://pub.dev/packages/provider).
-
-There's no reason not to use the `Navigator` in your app when you're using the
-`GoRouter`, but you'll want to be careful how you manage your app's state and
-the implications of using `Navigator` vs. `GoRouter` for navigation.
