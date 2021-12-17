@@ -6,3 +6,214 @@ This is a test page for docs.page
 here is an image link to google.com:
 
 [![image caption](https://www.google.com/logos/doodles/2021/seasonal-holidays-2021-6753651837109324-s.png)](https://www.google.com)
+
+
+# Code and Focus
+
+Code Hike will apply syntax highlighting to any code block
+
+```js
+function lorem(ipsum, dolor = 1) {
+  const sit = ipsum == null ? 0 : ipsum.sit;
+  dolor = sit - amet(dolor);
+  return sit ? consectetur(ipsum) : [];
+}
+```
+
+It works by default with many languages
+
+```groovy
+def f() {
+   return [2, 3]
+}
+
+(a, b) = f()
+println a
+println b
+```
+
+Use `focus` to show the code that's important to the reader
+
+```js focus=4
+function lorem(ipsum, dolor = 1) {
+  const sit = ipsum == null ? 0 : ipsum.sit;
+  dolor = sit - amet(dolor);
+  return sit ? consectetur(ipsum) : [];
+}
+```
+
+You can specify a list of line numbers
+
+```js focus=1,3:4
+function lorem(ipsum, dolor = 1) {
+  const sit = ipsum == null ? 0 : ipsum.sit;
+  dolor = sit - amet(dolor);
+  return sit ? consectetur(ipsum) : [];
+}
+```
+
+And also columns
+
+```js focus=2,4[10:13]
+function lorem(ipsum, dolor = 1) {
+  const sit = ipsum == null ? 0 : ipsum.sit;
+  dolor = sit - amet(dolor);
+  return sit ? consectetur(ipsum) : [];
+}
+```
+
+# Filenames
+
+Adding a filename to the codeblock
+
+```js app.js
+function lorem(ipsum, dolor = 1) {
+  const sit = ipsum == null ? 0 : ipsum.sit;
+  dolor = sit - amet(dolor);
+  return sit ? consectetur(ipsum) : [];
+}
+```
+
+## Tabs
+
+To add more tabs, wrap multiple codeblocks with `<CH.Code/>`:
+
+<CH.Code>
+
+```js app.js
+function lorem(ipsum, dolor = 1) {
+  const sit = ipsum == null ? 0 : ipsum.sit;
+  dolor = sit - amet(dolor);
+  return sit ? consectetur(ipsum) : [];
+}
+```
+
+```css styles.css
+.lorem {
+  color: #fff;
+  padding: 10px;
+  background: #000;
+}
+```
+
+</CH.Code>
+
+## Panels
+
+The _editor_ can be splitted vertically in two panels using `---`
+
+<CH.Code>
+
+```js app.js
+function lorem(ipsum, dolor = 1) {
+  const sit = ipsum == null ? 0 : ipsum.sit;
+  dolor = sit - amet(dolor);
+  return sit ? consectetur(ipsum) : [];
+}
+```
+
+---
+
+```css styles.css
+.lorem {
+  color: #fff;
+  padding: 10px;
+  background: #000;
+}
+```
+
+</CH.Code>
+
+
+# Annotations
+
+There are a few more annotations that can be used to highlight code.
+
+### `box` annotation
+
+```js box=2[15:43]
+function lorem(ipsum, dolor = 1) {
+  const sit = ipsum == null ? 0 : ipsum.sit;
+  dolor = sit - amet(dolor);
+  return sit ? consectetur(ipsum, 0, dolor < 0 ? 0 : dolor) : [];
+}
+```
+
+### `bg` annotation
+
+```js bg=2:4
+function lorem(ipsum, dolor = 1) {
+  const sit = ipsum == null ? 0 : ipsum.sit;
+  dolor = sit - amet(dolor);
+  return sit ? consectetur(ipsum, 0, dolor < 0 ? 0 : dolor) : [];
+}
+```
+
+# Comment annotations
+
+You can use comments inside the code to make the focus relative.
+
+```js
+function lorem(ipsum, dolor = 1) {
+  const sit = ipsum == null && 0;
+  dolor = sit - amet(dolor);
+  // focus
+  return sit ? consectetur(ipsum) : [];
+}
+
+// focus(1:4)
+function adipiscing(...elit) {
+  console.log(elit);
+  return elit.map((ipsum) => ipsum.sit);
+}
+
+// focus[13:17]
+console.log("hey");
+```
+
+Same with other annotations like `bg` and `box`.
+
+```js
+// bg(1:2)
+function foo() {
+  console.log("hover me");
+  // box[3:10]
+  return 8;
+}
+```
+
+You can pass a string parameter to comment annotations
+
+```js index.js
+function lorem(ipsum, dolor = 1) {
+  // bg(1:3) linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%)
+  const sit = ipsum == null && 0;
+  dolor = sit - amet(dolor);
+  return sit ? consectetur(ipsum) : [];
+}
+
+function adipiscing(...elit) {
+  console.log(elit);
+  // box[19:38] aqua
+  return elit.map((ipsum) => ipsum.sit);
+}
+```
+
+## Links and labels
+
+And now we introduce two more annotations: `link` and `label`
+
+```js focus=4,8
+function lorem(ipsum, dolor = 1) {
+  const sit = ipsum == null && 0;
+  dolor = sit - amet(dolor);
+  // link[16:26] https://github.com/code-hike/codehike
+  return sit ? consectetur(ipsum) : [];
+}
+
+function adipiscing(...elit) {
+  // label something something
+  console.log("hover me");
+  return elit.map((ipsum) => ipsum.sit);
+}
+```
