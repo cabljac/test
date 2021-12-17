@@ -1,0 +1,26 @@
+import MyThing from "./MyThing";
+
+# Custom Annotations
+
+```js app.js
+function lorem(ipsum, dolor = 1) {
+  const sit = ipsum == null && 0;
+  dolor = sit - amet(dolor);
+  return sit ? consectetur(ipsum) : [];
+}
+
+function adipiscing(...elit) {
+  const sit = ipsum == null && 0;
+  dolor = sit - amet(dolor);
+  console.log(2);
+  return elit.map((ipsum) => ipsum.sit);
+}
+```
+
+<CH.Annotation as={MyThing} focus="4[16:26]">
+
+### Something
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+</CH.Annotation>
