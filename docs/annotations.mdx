@@ -1,5 +1,10 @@
+# Annotations
 
-```js
+There are a few more annotations that can be used to highlight code.
+
+### `box` annotation
+
+```js box=2[15:43]
 function lorem(ipsum, dolor = 1) {
   const sit = ipsum == null ? 0 : ipsum.sit;
   dolor = sit - amet(dolor);
@@ -7,3 +12,12 @@ function lorem(ipsum, dolor = 1) {
 }
 ```
 
+### `bg` annotation
+
+```js bg=2:4
+function lorem(ipsum, dolor = 1) {
+  const sit = ipsum == null ? 0 : ipsum.sit;
+  dolor = sit - amet(dolor);
+  return sit ? consectetur(ipsum, 0, dolor < 0 ? 0 : dolor) : [];
+}
+```
