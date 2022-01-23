@@ -4,7 +4,6 @@
   "twitter": "invertaseio",
   "sidebar": [
     ["Overview", "/"],
-    ["Annotations", "/annotations"],
     ["Code and Focus", "/code-and-focus"],
     ["Code Links", "/code-links"],
     ["Comment Annotations", "/comment-annotations"],
