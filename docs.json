@@ -18,5 +18,6 @@
     "indexName": "use_docs_page"
   },
   "googleTagManager": "GTM-W89J6BX",
-  "experimentalCodehike": true
+  "experimentalCodehike": true,
+  "experimentalMath": true
 }
