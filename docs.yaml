@@ -1,35 +1,29 @@
 ---
-name: docs.page
+name: test
 theme: "#36B9B9"
 twitter: invertaseio
 sidebar:
 - - Overview
   - "/"
-- - Getting Started
-  - "/getting-started"
-- - Configuration
-  - "/configuration"
-- - Previews
-  - "/previews"
-- - Custom Domains
-  - "/custom-domains"
-- - Components
-  - "/components"
-- - Frontmatter
-  - "/frontmatter"
-- - GitHub Bot
-  - "/github-bot"
-- - Search
-  - "/search"
-- - Debugging
-  - "/debugging"
-- - Pre-rendering
-  - "/pre-rendering"
-- - Advanced
-  - "/advanced"
-- - Contributing
-  - "/contributing"
+- - Code and Focus
+  - "/code-and-focus"
+- - Code Links
+  - "/code-links"
+- - Comment Annotations
+  - "/comment-annotations"
+- - Filenames and Tabs
+  - "/filenames-and-tabs"
+- - Scrollycoding
+  - "/scrollycoding"
+- - Scrollycoding with Preview
+  - "/scrollycoding-with-preview"
+- - Spotlight
+  - "/spotlight"
+- - Spotlight with Preview
+  - "/spotlight-with-preview"
 docsearch:
   apiKey: 9b58d13ee3195094105d528fc6161a01
   indexName: use_docs_page
 googleTagManager: GTM-W89J6BX
+experimentalCodehike: true
+experimentalMath: true
