@@ -1,0 +1,297 @@
+[
+    {
+        "name": "AndroidBadgeIconType",
+        "path": "references/AndroidBadgeIconType",
+        "kind": "Enumeration"
+    },
+    {
+        "name": "AndroidCategory",
+        "path": "references/AndroidCategory",
+        "kind": "Enumeration"
+    },
+    {
+        "name": "AndroidColor",
+        "path": "references/AndroidColor",
+        "kind": "Enumeration"
+    },
+    {
+        "name": "AndroidDefaults",
+        "path": "references/AndroidDefaults",
+        "kind": "Enumeration"
+    },
+    {
+        "name": "AndroidGroupAlertBehavior",
+        "path": "references/AndroidGroupAlertBehavior",
+        "kind": "Enumeration"
+    },
+    {
+        "name": "AndroidImportance",
+        "path": "references/AndroidImportance",
+        "kind": "Enumeration"
+    },
+    {
+        "name": "AndroidLaunchActivityFlag",
+        "path": "references/AndroidLaunchActivityFlag",
+        "kind": "Enumeration"
+    },
+    {
+        "name": "AndroidStyle",
+        "path": "references/AndroidStyle",
+        "kind": "Enumeration"
+    },
+    {
+        "name": "AndroidVisibility",
+        "path": "references/AndroidVisibility",
+        "kind": "Enumeration"
+    },
+    {
+        "name": "AuthorizationStatus",
+        "path": "references/AuthorizationStatus",
+        "kind": "Enumeration"
+    },
+    {
+        "name": "EventType",
+        "path": "references/EventType",
+        "kind": "Enumeration"
+    },
+    {
+        "name": "IOSIntentIdentifier",
+        "path": "references/IOSIntentIdentifier",
+        "kind": "Enumeration"
+    },
+    {
+        "name": "IOSNotificationSetting",
+        "path": "references/IOSNotificationSetting",
+        "kind": "Enumeration"
+    },
+    {
+        "name": "IOSShowPreviewsSetting",
+        "path": "references/IOSShowPreviewsSetting",
+        "kind": "Enumeration"
+    },
+    {
+        "name": "RepeatFrequency",
+        "path": "references/RepeatFrequency",
+        "kind": "Enumeration"
+    },
+    {
+        "name": "TimeUnit",
+        "path": "references/TimeUnit",
+        "kind": "Enumeration"
+    },
+    {
+        "name": "TriggerType",
+        "path": "references/TriggerType",
+        "kind": "Enumeration"
+    },
+    {
+        "name": "AndroidAction",
+        "path": "references/AndroidAction",
+        "kind": "Interface"
+    },
+    {
+        "name": "AndroidBigPictureStyle",
+        "path": "references/AndroidBigPictureStyle",
+        "kind": "Interface"
+    },
+    {
+        "name": "AndroidBigTextStyle",
+        "path": "references/AndroidBigTextStyle",
+        "kind": "Interface"
+    },
+    {
+        "name": "AndroidChannel",
+        "path": "references/AndroidChannel",
+        "kind": "Interface"
+    },
+    {
+        "name": "AndroidChannelGroup",
+        "path": "references/AndroidChannelGroup",
+        "kind": "Interface"
+    },
+    {
+        "name": "AndroidInboxStyle",
+        "path": "references/AndroidInboxStyle",
+        "kind": "Interface"
+    },
+    {
+        "name": "AndroidInput",
+        "path": "references/AndroidInput",
+        "kind": "Interface"
+    },
+    {
+        "name": "AndroidMessagingStyle",
+        "path": "references/AndroidMessagingStyle",
+        "kind": "Interface"
+    },
+    {
+        "name": "AndroidMessagingStyleMessage",
+        "path": "references/AndroidMessagingStyleMessage",
+        "kind": "Interface"
+    },
+    {
+        "name": "AndroidPerson",
+        "path": "references/AndroidPerson",
+        "kind": "Interface"
+    },
+    {
+        "name": "AndroidProgress",
+        "path": "references/AndroidProgress",
+        "kind": "Interface"
+    },
+    {
+        "name": "DisplayedNotification",
+        "path": "references/DisplayedNotification",
+        "kind": "Interface"
+    },
+    {
+        "name": "Event",
+        "path": "references/Event",
+        "kind": "Interface"
+    },
+    {
+        "name": "EventDetail",
+        "path": "references/EventDetail",
+        "kind": "Interface"
+    },
+    {
+        "name": "IOSAttachmentThumbnailClippingRect",
+        "path": "references/IOSAttachmentThumbnailClippingRect",
+        "kind": "Interface"
+    },
+    {
+        "name": "IOSForegroundPresentationOptions",
+        "path": "references/IOSForegroundPresentationOptions",
+        "kind": "Interface"
+    },
+    {
+        "name": "IOSInput",
+        "path": "references/IOSInput",
+        "kind": "Interface"
+    },
+    {
+        "name": "IOSNotificationAttachment",
+        "path": "references/IOSNotificationAttachment",
+        "kind": "Interface"
+    },
+    {
+        "name": "IOSNotificationCategory",
+        "path": "references/IOSNotificationCategory",
+        "kind": "Interface"
+    },
+    {
+        "name": "IOSNotificationCategoryAction",
+        "path": "references/IOSNotificationCategoryAction",
+        "kind": "Interface"
+    },
+    {
+        "name": "IOSNotificationPermissions",
+        "path": "references/IOSNotificationPermissions",
+        "kind": "Interface"
+    },
+    {
+        "name": "IOSNotificationSettings",
+        "path": "references/IOSNotificationSettings",
+        "kind": "Interface"
+    },
+    {
+        "name": "InitialNotification",
+        "path": "references/InitialNotification",
+        "kind": "Interface"
+    },
+    {
+        "name": "IntervalTrigger",
+        "path": "references/IntervalTrigger",
+        "kind": "Interface"
+    },
+    {
+        "name": "Module",
+        "path": "references/Module",
+        "kind": "Interface"
+    },
+    {
+        "name": "ModuleStatics",
+        "path": "references/ModuleStatics",
+        "kind": "Interface"
+    },
+    {
+        "name": "ModuleWithStatics",
+        "path": "references/ModuleWithStatics",
+        "kind": "Interface"
+    },
+    {
+        "name": "NativeAndroidChannel",
+        "path": "references/NativeAndroidChannel",
+        "kind": "Interface"
+    },
+    {
+        "name": "NativeAndroidChannelGroup",
+        "path": "references/NativeAndroidChannelGroup",
+        "kind": "Interface"
+    },
+    {
+        "name": "NativeError",
+        "path": "references/NativeError",
+        "kind": "Interface"
+    },
+    {
+        "name": "Notification",
+        "path": "references/Notification",
+        "kind": "Interface"
+    },
+    {
+        "name": "NotificationAndroid",
+        "path": "references/NotificationAndroid",
+        "kind": "Interface"
+    },
+    {
+        "name": "NotificationFullScreenAction",
+        "path": "references/NotificationFullScreenAction",
+        "kind": "Interface"
+    },
+    {
+        "name": "NotificationIOS",
+        "path": "references/NotificationIOS",
+        "kind": "Interface"
+    },
+    {
+        "name": "NotificationPressAction",
+        "path": "references/NotificationPressAction",
+        "kind": "Interface"
+    },
+    {
+        "name": "NotificationSettings",
+        "path": "references/NotificationSettings",
+        "kind": "Interface"
+    },
+    {
+        "name": "PowerManagerInfo",
+        "path": "references/PowerManagerInfo",
+        "kind": "Interface"
+    },
+    {
+        "name": "TimestampTrigger",
+        "path": "references/TimestampTrigger",
+        "kind": "Interface"
+    },
+    {
+        "name": "TimestampTriggerAlarmManager",
+        "path": "references/TimestampTriggerAlarmManager",
+        "kind": "Interface"
+    },
+    {
+        "name": "TriggerNotification",
+        "path": "references/TriggerNotification",
+        "kind": "Interface"
+    },
+    {
+        "name": "ForegroundServiceTask",
+        "path": "references/ForegroundServiceTask",
+        "kind": "Type alias"
+    },
+    {
+        "name": "Trigger",
+        "path": "references/Trigger",
+        "kind": "Type alias"
+    }
+]
