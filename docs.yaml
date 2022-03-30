@@ -1,0 +1,17 @@
+---
+name: ''
+logo: ''
+logoDark: ''
+favicon: ''
+socialPreview: ''
+twitter: ''
+noindex: false
+theme: "#00bcd4"
+sidebar: []
+headerDepth: 3
+variables: {}
+googleTagManager: ''
+zoomImages: false
+experimentalCodehike: false
+experimentalMath: false
+references: "references"
