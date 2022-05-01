@@ -15,5 +15,5 @@ variables: {}
 googleTagManager: ''
 zoomImages: false
 experimentalCodehike: false
-experimentalMath: false
+experimentalMath: true
 reference: "References"
