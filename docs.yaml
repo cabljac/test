@@ -8,7 +8,7 @@ twitter: ''
 noindex: false
 theme: "#00bcd4"
 sidebar: [
-['Code and Focus','code-and-focus']
+['Code and Focus','/code-and-focus']
 ]
 headerDepth: 3
 variables: {}
