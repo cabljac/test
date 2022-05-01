@@ -14,6 +14,6 @@ headerDepth: 3
 variables: {}
 googleTagManager: ''
 zoomImages: false
-experimentalCodehike: false
+experimentalCodehike: true
 experimentalMath: true
 reference: "References"
