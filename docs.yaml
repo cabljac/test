@@ -10,7 +10,7 @@ theme: "#00bcd4"
 sidebar: [
   ["Code and Focus","/code-and-focus"],
   ["Nested",
-    ["Nested Example", "/test"]
+    [["Nested Example", "/test"]]
   ]
 ]
 headerDepth: 3
