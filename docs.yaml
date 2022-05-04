@@ -8,9 +8,9 @@ twitter: ''
 noindex: false
 theme: "#00bcd4"
 sidebar: [
-  ['Code and Focus','/code-and-focus'],
-  ['Nested',
-    ['Nested Example', '/test']
+  ["Code and Focus","/code-and-focus"],
+  ["Nested",
+    ["Nested Example", "/test"]
   ]
 ]
 headerDepth: 3
