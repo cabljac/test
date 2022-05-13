@@ -164,3 +164,44 @@ export const edges = [
 
 <ReactFlow initialNodes={nodes} initialEdges={edges} enablePanAndZoom enableNodeDragging/>
 
+## Enabling Minimap
+
+```jsx
+<ReactFlow
+  initialNodes={nodes}
+  initialEdges={edges}
+  enablePanAndZoom
+  enableNodeDragging
+  minimap
+/>
+```
+
+<ReactFlow initialNodes={nodes} initialEdges={edges} enablePanAndZoom enableNodeDragging minimap/>
+
+## Enabling Minimap and Controls
+
+```jsx
+<ReactFlow
+  initialNodes={nodes}
+  initialEdges={edges}
+  enablePanAndZoom
+  enableNodeDragging
+  minimap
+/>
+```
+
+<ReactFlow initialNodes={nodes} initialEdges={edges} enablePanAndZoom enableNodeDragging minimap controls/>
+
+## Enabling Controls without pan and zoom events
+
+```jsx
+<ReactFlow
+  initialNodes={nodes}
+  initialEdges={edges}
+  enablePanAndZoom
+  enableNodeDragging
+  minimap
+/>
+```
+
+<ReactFlow initialNodes={nodes} initialEdges={edges} minimap/>
